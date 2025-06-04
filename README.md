@@ -94,6 +94,8 @@ services:
     ports:
       - 8088:8088
 ```
+Run `docker-compose up -d` to start.
+
 
 [docker-compose.yml provided by aitixiong](https://github.com/easychen/CookieCloud/issues/42)
 
