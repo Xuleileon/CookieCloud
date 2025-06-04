@@ -108,6 +108,20 @@ cd api && yarn install && node app.js
 ```
 Default port 8088, also supports the API_ROOT environment variable
 
+#### Deploy on Zeabur using Prebuilt
+
+If Zeabur detects the repository as a static site, create a **Custom Prebuilt**
+service manually and use the official image:
+
+```
+Image: easychen/cookiecloud:latest
+Port: 8088 (HTTP)
+Volume: <any id>:/data/api/data
+Environment variables: optional API_ROOT=/cookie
+```
+No custom start command is required. Once saved, Zeabur will start the
+container normally.
+
 ## Debugging and Log Viewing
 
 Enter the browser plugin list, click on service worker, a panel will pop up where you can view the operation log
