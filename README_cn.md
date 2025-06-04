@@ -92,6 +92,8 @@ services:
     ports:
       - 8088:8088
 ```
+然后执行 `docker-compose up -d` 启动。
+
 
 [docker-compose.yml由aitixiong提供](https://github.com/easychen/CookieCloud/issues/42)
 
