@@ -6,6 +6,9 @@
 
 CookieCloud is a small tool for syncing cookies with your self-hosted server, allowing you to synchronize browser cookies and local storage to your phone and cloud. It features built-in end-to-end encryption and allows you to set a synchronization interval.
 
+> Since version 0.3.0, the project has been rewritten using **wxt**. It now supports encryption algorithms with a fixed IV and supports more standard libraries for decryption. See the **wxt** branch for details.
+
+
 > The latest version now supports synchronization of local storage under the same domain name.
 
 [Telegram channel](https://t.me/CookieCloudTG) | [Telegram group](https://t.me/CookieCloudGroup)
@@ -41,6 +44,13 @@ We apologize for any inconvenience this may cause 🙇🏻‍♂️
 
 ## Server Side
 
+### Official Test Server
+
+> For testing purposes only. Stability is not guaranteed. It is recommended to set up your own server to further enhance data security.
+
+* [https://ccc.ft07.com](https://ccc.ft07.com)
+
+
 ### Third Party
 
 > Free server-side services provided by third parties are available for trial. Stability is determined by the third parties. We appreciate their sharing 👏
@@ -52,7 +62,7 @@ We apologize for any inconvenience this may cause 🙇🏻‍♂️
 - <http://nastool.cn:8088> provided by [nastools](https://github.com/jxxghp/nas-tools)
 - <https://cookies.xm.mk> provided by [Xm798](https://github.com/Xm798)
 - <https://cookie.xy213.cn> provided by [xuyan0213](https://github.com/xuyan0213)
-- <https://cookie-cloud.vantis-space.com> provided by [vantis](https://github.com/vantis-zh)
+- <https://cookie-cloud.vantiszh.com> provided by [vantis](https://github.com/vantis-zh)
 - <https://cookiecloud.25wz.cn> provided by [wuquejs](https://github.com/wuquejs)
 - <https://cookiecloud.zhensnow.uk> provided by [YeTianXingShi](https://github.com/YeTianXingShi)
 - <https://cookiecloud.ddsrem.com> provided by [DDSRem](https://github.com/DDS-Derek)

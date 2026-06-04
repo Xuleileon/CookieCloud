@@ -6,6 +6,8 @@
 
 CookieCloud是一个和自架服务器同步Cookie的小工具，可以将浏览器的Cookie及Local storage同步到手机和云端，它内置端对端加密，可设定同步时间间隔。
 
+> 0.3.0 版本改用 wxt 重写了，支持固定 IV 的加密算法，解密时支持更多的标准库，详见 wxt 分支
+
 > 最新版本支持了对同域名下local storage的同步
 
 [Telegram频道](https://t.me/CookieCloudTG) | [Telegram交流群](https://t.me/CookieCloudGroup)
@@ -40,6 +42,12 @@ CookieCloud是一个和自架服务器同步Cookie的小工具，可以将浏览
 
 ## 服务器端
 
+### 官方测试服务器
+
+> 仅供测试使用，不保证稳定性，建议自行搭建以进一步加强数据安全
+
+- <https://ccc.ft07.com>
+
 ### 第三方
 
 > 由第三方提供的免费服务器端，可供试用，稳定性由第三方决定。感谢他们的分享 👏
@@ -51,7 +59,7 @@ CookieCloud是一个和自架服务器同步Cookie的小工具，可以将浏览
 - <http://nastool.cn:8088> 由[nastools](https://github.com/jxxghp/nas-tools)提供
 - <https://cookies.xm.mk> 由[Xm798](https://github.com/Xm798)提供
 - <https://cookie.xy213.cn> 由[xuyan0213](https://github.com/xuyan0213)提供
-- <https://cookie-cloud.vantis-space.com> 由[vantis](https://github.com/vantis-zh)提供
+- <https://cookie-cloud.vantiszh.com> 由[vantis](https://github.com/vantis-zh)提供
 - <https://cookiecloud.25wz.cn> 由[wuquejs](https://github.com/wuquejs)提供
 - <https://cookiecloud.zhensnow.uk> 由[YeTianXingShi](https://github.com/YeTianXingShi)提供
 - <https://cookiecloud.ddsrem.com> 由[DDSRem](https://github.com/DDS-Derek)提供
